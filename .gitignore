@@ -1,0 +1,17 @@
+# Dependency directory
+/node_modules
+
+# Build output directory
+/build
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+
+# Operating System and editor-specific files
+.DS_Store
+.vscode/

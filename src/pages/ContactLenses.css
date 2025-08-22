@@ -1,0 +1,381 @@
+.contact-lenses-page .hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.contact-lenses-page .hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.contact-lenses-page .hero-section p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.lens-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.lens-type-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lens-type-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.lens-type-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.lens-type-header h3 {
+  color: #1a365d;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.lens-price {
+  color: #667eea;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.lens-description {
+  color: #718096;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.lens-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.detail-item h4 {
+  color: #1a365d;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.detail-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.detail-item li {
+  color: #4a5568;
+  padding: 0.25rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.detail-item li:before {
+  content: "•";
+  color: #667eea;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.detail-item p {
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.specialty-section {
+  background: #f7fafc;
+}
+
+.specialty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.specialty-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.specialty-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.specialty-card h3 {
+  color: #1a365d;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.specialty-card p {
+  color: #718096;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.specialty-price {
+  color: #667eea;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.specialty-features h4 {
+  color: #1a365d;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.specialty-features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.specialty-features li {
+  color: #4a5568;
+  padding: 0.25rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.specialty-features li:before {
+  content: "•";
+  color: #667eea;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.fitting-section {
+  background: white;
+}
+
+.fitting-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.fitting-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.step {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.step-number {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto 1rem;
+}
+
+.step h3 {
+  color: #1a365d;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.step p {
+  color: #718096;
+  line-height: 1.6;
+}
+
+.care-section {
+  background: #f7fafc;
+}
+
+.care-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.care-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.care-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.care-step {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.step-circle {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.care-card h3 {
+  color: #1a365d;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.care-card p {
+  color: #718096;
+  line-height: 1.6;
+}
+
+.safety-section {
+  background: white;
+}
+
+.safety-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.safety-tips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.tip {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.tip svg {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.tip h3 {
+  color: #1a365d;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.tip p {
+  color: #718096;
+  line-height: 1.6;
+}
+
+.appointment-section {
+  background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
+  color: white;
+}
+
+.appointment-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.appointment-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.appointment-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.appointment-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.appointment-buttons .btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .contact-lenses-page .hero-section {
+    padding: 60px 0;
+  }
+  
+  .contact-lenses-page .hero-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .lens-type-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .fitting-steps {
+    grid-template-columns: 1fr;
+  }
+  
+  .care-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .safety-tips {
+    grid-template-columns: 1fr;
+  }
+  
+  .appointment-content h2 {
+    font-size: 2rem;
+  }
+  
+  .appointment-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
